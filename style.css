@@ -1,9 +1,7 @@
 h2{
-    color:red;
-}
-h1 center{
     color:blue;
 }
+
 h3 em{
     color:gold;
 }
@@ -12,4 +10,37 @@ centre em strong{
 }
 span{
     color:darkblue;
+}
+
+#contact{
+    margin-left: 700px;
+}
+
+table{
+    margin: 50px auto;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    height: 35px;
+    width: 342px;
+    padding: 5px;
+}
+
+textarea{
+    width: 350px;
+}
+
+input[type="submit"]{
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    width: 357px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
 }
